@@ -1,9 +1,6 @@
-import { View, Text, StyleSheet, Button } from 'react-native';
-import { useRouter } from 'expo-router';
+import { View, Text, StyleSheet } from 'react-native';
 
 export default function Detalhe() {
-  const router = useRouter();
-
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Página de Detalhes</Text>
