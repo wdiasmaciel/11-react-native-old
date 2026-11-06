@@ -9,10 +9,10 @@ export default function Login() {
       <Text style={styles.title}>Tela de Login</Text>
       
       {/* Simula o login enviando o usuário para a Dashboard */}
-      <Button title="Entrar (Ir para o App)" onPress={() => router.replace('./')} /> // "./" corresponde "./(private)/index". 
+      <Button title="Entrar (Ir para o App)" onPress={() => router.replace('/')} />
       
       <View style={{ height: 12 }} />
-      <Button title="Criar uma conta" color="#666" onPress={() => router.push('./cadastro')} />
+      <Button title="Criar uma conta" color="#666" onPress={() => router.push('/cadastro')} />
     </View>
   );
 }

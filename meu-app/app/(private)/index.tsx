@@ -12,11 +12,11 @@ export default function TelaInicial() {
     <View style={styles.container}>
       <Text style={styles.title}>Painel Principal (Logado)</Text>
       
-      <Button title="Ver Detalhes" onPress={() => router.push('./detalhes')} />
+      <Button title="Ver Detalhes" onPress={() => router.push('/detalhe')} />
       
       <View style={{ height: 12 }} />
       {/* Simula o logout mandando de volta para a tela inicial de autenticação: */}
-      <Button title="Sair do App" color="red" onPress={() => router.replace('./login')} />
+      <Button title="Sair do App" color="red" onPress={() => router.replace('/login')} />
     </View>
   );
 }
